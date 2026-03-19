@@ -96,7 +96,7 @@ function App() {
         <div className="w-full lg:w-[450px] flex flex-col gap-6 shrink-0 mt-8 lg:mt-0 lg:-mt-2">
           
           <h1 className="text-[36px] sm:text-[40px] lg:text-[46px] font-bold text-[#202938] mb-2 tracking-tight text-center lg:text-left leading-tight">
-            See products in your room
+            See live floor transformation in your room
           </h1>
 
           <ul className="text-[15px] sm:text-[16px] text-gray-600 space-y-4 font-medium mb-2">
