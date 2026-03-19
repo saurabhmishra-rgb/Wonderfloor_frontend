@@ -36,7 +36,7 @@ function App() {
 
   // --- Industry Data ---
   const industries = [
-    "All"
+    "All",
     "Industrial Flooring",
     "Office Flooring",
     "Residential Flooring",
