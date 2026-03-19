@@ -93,9 +93,10 @@ function App() {
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 lg:gap-16 mt-16 sm:mt-20 md:mt-24 mb-16 sm:mb-24 w-full">
         
         {/* Left Column - Heading & Controls */}
-        <div className="w-full lg:w-[450px] flex flex-col gap-6 shrink-0 mt-8 lg:mt-0 lg:-mt-2">
+        <div className="w-full lg:w-[480px] flex flex-col gap-6 shrink-0 mt-8 lg:mt-0 lg:-mt-2">
           
-          <h1 className="text-[36px] sm:text-[40px] lg:text-[46px] font-bold text-[#202938] mb-2 tracking-tight text-center lg:text-left leading-tight">
+          {/* FIXED: Reduced font sizes and added proper wrapping for longer text */}
+          <h1 className="text-[32px] sm:text-[36px] lg:text-[42px] font-bold text-[#202938] mb-2 tracking-tight text-center lg:text-left leading-[1.2] break-words">
             See live floor transformation in your room
           </h1>
 
