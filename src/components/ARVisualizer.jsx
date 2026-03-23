@@ -1,15 +1,26 @@
 import React, { useState, useRef, useEffect } from 'react';
 
+// --- Corrected imports matching your VS Code sidebar ---
+import actonImg from '../assets/image1.jpeg';
+import holmesImg from '../assets/image2.jpeg';
+import cedarImg from '../assets/image3.jpeg';
+import fayeImg from '../assets/image4.jpeg';
+import callaImg from '../assets/image5.jpeg';
+import tansyImg from '../assets/image6.jpeg';
+// Note: If you have a 7th image for Poppy, import it here. 
+// For now, I'll map Poppy to image1 to prevent errors.
+import poppyImg from '../assets/image1.jpeg'; 
+
 const ARVisualizer = ({ closeModal, initialImage }) => {
-  // --- Original Mock Data Restored ---
+  // --- Updated Mock Data using Imported Local Assets ---
   const mockProducts = [
-    { id: 1, name: 'Acton', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/37214658552107.jpg' },
-    { id: 2, name: 'Holmes', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/96584713552114.jpg' },
-    { id: 3, name: 'Cedar', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/16983742554306.jpg' },
-    { id: 4, name: 'Faye', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/36812945557304.jpg' },
-    { id: 5, name: 'Calla', size: '6cm x 136cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/64158972557305.jpg' },
-    { id: 6, name: 'Tansy', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/21458679557306.jpg' },
-    { id: 7, name: 'Poppy1', size: '6cm x 36cm', img: 'https://www.wonderfloor.co.in/wd_admin/shades_images/34527196557701.jpg' },
+    { id: 1, name: 'Acton', size: '6cm x 36cm', img: actonImg },
+    { id: 2, name: 'Holmes', size: '6cm x 36cm', img: holmesImg },
+    { id: 3, name: 'Cedar', size: '6cm x 36cm', img: cedarImg },
+    { id: 4, name: 'Faye', size: '6cm x 36cm', img: fayeImg },
+    { id: 5, name: 'Calla', size: '6cm x 136cm', img: callaImg },
+    { id: 6, name: 'Tansy', size: '6cm x 36cm', img: tansyImg },
+    { id: 7, name: 'Poppy1', size: '6cm x 36cm', img: poppyImg }, 
   ];
 
   // --- State ---
